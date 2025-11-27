@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+/* CRT-style visual effects */
+:root {
+  --crt-scanline-color: rgba(0, 255, 0, 0.05);
+}
+
+body {
+  margin: 0;
+  background: black;
+  font-family: 'VT323', monospace, ui-monospace, monospace;
+  color: #00ff00;
+}
+
+.text-shadow {
+  text-shadow: 0 0 10px currentColor;
+}
